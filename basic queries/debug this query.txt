@@ -1,0 +1,4 @@
+select distinct passenger_name
+from flights
+where gender = 'Male'
+and origin = 'Mumbai';

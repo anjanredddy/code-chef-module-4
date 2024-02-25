@@ -1,0 +1,4 @@
+select department, avg(payout) as 'avg_payout'
+from employee
+group by department
+having sum(payout)>40;

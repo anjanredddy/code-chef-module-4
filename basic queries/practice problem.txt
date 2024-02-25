@@ -1,0 +1,2 @@
+select passenger_name,Gender from Flights
+where origin = 'New York';

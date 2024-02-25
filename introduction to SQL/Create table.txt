@@ -1,0 +1,6 @@
+CREATE TABLE employee
+(
+    Employee_id ___ , /* Integer Data type assigned to the variable */
+    Employee_Name   ____, /* TEXT Data type assigned to the variable */
+    Department  ____ /* TEXT Data type assigned to the variable */
+);

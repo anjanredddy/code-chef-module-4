@@ -1,0 +1,2 @@
+select avg(Age) as avg_age from student;
+select sum(Fee_outstanding) as fee_outstanding  from student where department like 'Arts';

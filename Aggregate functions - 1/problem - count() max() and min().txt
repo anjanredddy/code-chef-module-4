@@ -1,0 +1,3 @@
+select count(*)  as count_sales from employee where Department like 'sales'; 
+select max(Hourly_pay) as ops_max_pay from employee where Department like 'Operations';
+select min(Hourly_pay) as ops_min_pay from employee where Department like 'Operations';

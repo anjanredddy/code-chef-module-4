@@ -1,0 +1,1 @@
+select sum(Payout) as 'total_payout' from employee;

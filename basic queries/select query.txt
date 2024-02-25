@@ -1,0 +1,1 @@
+select Passenger_name,Gender from Flights;

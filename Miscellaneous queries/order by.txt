@@ -1,0 +1,3 @@
+select * from Flights
+where Destination = 'Cairo'
+order by passenger_name desc;

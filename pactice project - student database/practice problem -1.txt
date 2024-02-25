@@ -1,0 +1,2 @@
+select min(Marks)  as min_marks from student where department like 'Science';
+select max(Marks) as max_marks from student where department like 'Science';

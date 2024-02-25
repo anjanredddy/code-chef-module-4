@@ -1,0 +1,4 @@
+select department,round(avg(marks),2) as 'avg_marks'
+ from student 
+ group by department
+ having avg(Fee_outstanding) < 500;

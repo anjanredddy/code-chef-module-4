@@ -1,0 +1,2 @@
+select sum(payout) as 'Product_total_pay' from employee where department like 'Product';
+select avg(payout) as 'ops_avg_pay' from employee where department like 'Operations';

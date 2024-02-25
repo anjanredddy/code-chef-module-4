@@ -1,0 +1,4 @@
+SELECT employee_id AS 'Serial',
+ employee_name as 'Name',
+ department as 'Dept'
+FROM employee;

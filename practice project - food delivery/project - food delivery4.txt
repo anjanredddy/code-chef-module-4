@@ -1,0 +1,2 @@
+select distinct customer_id from Orders
+where customer_name like '%a';

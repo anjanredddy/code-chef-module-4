@@ -1,0 +1,4 @@
+update employee
+set hourly_pay = 150
+where department = 'Hr';
+select * from employee;

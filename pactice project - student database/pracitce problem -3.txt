@@ -1,0 +1,3 @@
+select department,sum(Fee_outstanding) as fee_outstanding
+from student 
+group by department;

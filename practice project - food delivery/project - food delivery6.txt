@@ -1,0 +1,2 @@
+select order_id from Orders 
+where order_time isnull;

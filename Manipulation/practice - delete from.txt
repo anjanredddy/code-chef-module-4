@@ -1,0 +1,3 @@
+delete from employee
+where department = 'Client';
+select * from employee;

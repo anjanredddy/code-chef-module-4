@@ -1,0 +1,4 @@
+select round(min(Payout),2) as 'min_pay',
+    round(max(Payout),2) as 'max_pay'
+from employee;
+
